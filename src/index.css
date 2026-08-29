@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #f8f3ee;
+  color: #24160f;
+}
+
+::selection {
+  background: #8b5e3c;
+  color: white;
+}
+
+@layer components {
+  .section-padding {
+    @apply px-5 py-20 sm:px-8 lg:px-16;
+  }
+
+  .container-custom {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-wood-800 px-6 py-3 font-medium text-white transition duration-300 hover:bg-wood-600;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-wood-800 px-6 py-3 font-medium text-wood-800 transition duration-300 hover:bg-wood-800 hover:text-white;
+  }
+}
