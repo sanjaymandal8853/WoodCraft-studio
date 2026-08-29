@@ -93,7 +93,7 @@ ${formData.message}
                     WhatsApp
                   </p>
                   <p className="font-medium text-white">
-                    +91 98765 43210
+                    +918005168134
                   </p>
                 </div>
               </div>
@@ -108,7 +108,7 @@ ${formData.message}
                     Call Us
                   </p>
                   <p className="font-medium text-white">
-                    +91 98765 43210
+                    +918005168134
                   </p>
                 </div>
               </div>

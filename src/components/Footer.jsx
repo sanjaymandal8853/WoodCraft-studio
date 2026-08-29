@@ -5,7 +5,7 @@ import {
   ArrowUp,
 } from "lucide-react";
 
-const WHATSAPP_NUMBER = "919876543210";
+const WHATSAPP_NUMBER = "918005168134";
 
 function Footer() {
   const openWhatsApp = () => {
@@ -25,11 +25,11 @@ function Footer() {
 
   return (
     <footer className="bg-wood-950 bg-[#1b100a] text-white">
-      <div className="container-custom px-5 py-14 sm:px-8 lg:px-16">
+      <div className="px-5 container-custom py-14 sm:px-8 lg:px-16">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3">
-              <div className="flex h-11 w-11 items-center justify-center rounded-full border border-wood-400 text-wood-300">
+              <div className="flex items-center justify-center border rounded-full h-11 w-11 border-wood-400 text-wood-300">
                 <span className="font-serif text-lg">W</span>
               </div>
 
@@ -43,7 +43,7 @@ function Footer() {
               </div>
             </div>
 
-            <p className="mt-6 max-w-md leading-7 text-white/50">
+            <p className="max-w-md mt-6 leading-7 text-white/50">
               Handcrafted furniture and thoughtful interiors
               designed to bring warmth, character and timeless
               beauty to your space.
@@ -51,7 +51,7 @@ function Footer() {
 
             <button
               onClick={openWhatsApp}
-              className="mt-6 inline-flex items-center gap-2 rounded-full bg-wood-500 px-5 py-3 text-sm font-semibold text-white hover:bg-wood-400"
+              className="inline-flex items-center gap-2 px-5 py-3 mt-6 text-sm font-semibold text-white rounded-full bg-wood-500 hover:bg-wood-400"
             >
               <MessageCircle size={17} />
               Chat on WhatsApp
@@ -61,7 +61,7 @@ function Footer() {
           <div>
             <h3 className="font-semibold">Quick Links</h3>
 
-            <div className="mt-5 flex flex-col gap-3 text-sm text-white/50">
+            <div className="flex flex-col gap-3 mt-5 text-sm text-white/50">
               <a href="#home" className="hover:text-white">
                 Home
               </a>
@@ -83,7 +83,7 @@ function Footer() {
           <div>
             <h3 className="font-semibold">Services</h3>
 
-            <div className="mt-5 flex flex-col gap-3 text-sm text-white/50">
+            <div className="flex flex-col gap-3 mt-5 text-sm text-white/50">
               <span>Custom Furniture</span>
               <span>Interior Design</span>
               <span>Wooden Kitchens</span>
@@ -93,7 +93,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col justify-between gap-5 border-t border-white/10 pt-7 sm:flex-row sm:items-center">
+        <div className="flex flex-col justify-between gap-5 mt-12 border-t border-white/10 pt-7 sm:flex-row sm:items-center">
           <p className="text-sm text-white/40">
             © {new Date().getFullYear()} WoodCraft Studio. All
             rights reserved.
@@ -103,7 +103,7 @@ function Footer() {
             <a
               href="#"
               aria-label="Instagram"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-white/60 transition hover:bg-white hover:text-wood-900"
+              className="flex items-center justify-center w-10 h-10 transition border rounded-full border-white/10 text-white/60 hover:bg-white hover:text-wood-900"
             >
               <Instagram size={17} />
             </a>
@@ -111,7 +111,7 @@ function Footer() {
             <a
               href="#"
               aria-label="Facebook"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-white/60 transition hover:bg-white hover:text-wood-900"
+              className="flex items-center justify-center w-10 h-10 transition border rounded-full border-white/10 text-white/60 hover:bg-white hover:text-wood-900"
             >
               <Facebook size={17} />
             </a>
@@ -119,7 +119,7 @@ function Footer() {
             <a
               href="#home"
               aria-label="Back to top"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-white/60 transition hover:bg-white hover:text-wood-900"
+              className="flex items-center justify-center w-10 h-10 transition border rounded-full border-white/10 text-white/60 hover:bg-white hover:text-wood-900"
             >
               <ArrowUp size={17} />
             </a>
