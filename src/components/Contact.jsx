@@ -7,7 +7,7 @@ import {
   MapPin,
 } from "lucide-react";
 
-const WHATSAPP_NUMBER = "919876543210";
+const WHATSAPP_NUMBER = "918005168134";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -76,7 +76,7 @@ ${formData.message}
               </span>
             </h2>
 
-            <p className="mt-6 max-w-xl leading-8 text-white/60">
+            <p className="max-w-xl mt-6 leading-8 text-white/60">
               Tell us about your project. Fill out the form and
               we'll open WhatsApp with your project details ready
               to send to our team.
@@ -84,7 +84,7 @@ ${formData.message}
 
             <div className="mt-10 space-y-6">
               <div className="flex items-center gap-4">
-                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-wood-300">
+                <div className="flex items-center justify-center rounded-full h-11 w-11 bg-white/10 text-wood-300">
                   <MessageCircle size={19} />
                 </div>
 
@@ -99,7 +99,7 @@ ${formData.message}
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-wood-300">
+                <div className="flex items-center justify-center rounded-full h-11 w-11 bg-white/10 text-wood-300">
                   <Phone size={19} />
                 </div>
 
@@ -114,7 +114,7 @@ ${formData.message}
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-wood-300">
+                <div className="flex items-center justify-center rounded-full h-11 w-11 bg-white/10 text-wood-300">
                   <Mail size={19} />
                 </div>
 
@@ -129,7 +129,7 @@ ${formData.message}
               </div>
 
               <div className="flex items-center gap-4">
-                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-wood-300">
+                <div className="flex items-center justify-center rounded-full h-11 w-11 bg-white/10 text-wood-300">
                   <MapPin size={19} />
                 </div>
 
@@ -157,9 +157,9 @@ ${formData.message}
               Submit your details and continue on WhatsApp.
             </p>
 
-            <div className="mt-7 grid gap-5 sm:grid-cols-2">
+            <div className="grid gap-5 mt-7 sm:grid-cols-2">
               <div>
-                <label className="mb-2 block text-sm font-medium text-wood-800">
+                <label className="block mb-2 text-sm font-medium text-wood-800">
                   Name
                 </label>
 
@@ -170,12 +170,12 @@ ${formData.message}
                   onChange={handleChange}
                   required
                   placeholder="Your name"
-                  className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-wood-500"
+                  className="w-full px-4 py-3 transition border border-gray-200 outline-none rounded-xl focus:border-wood-500"
                 />
               </div>
 
               <div>
-                <label className="mb-2 block text-sm font-medium text-wood-800">
+                <label className="block mb-2 text-sm font-medium text-wood-800">
                   Email
                 </label>
 
@@ -186,12 +186,12 @@ ${formData.message}
                   onChange={handleChange}
                   required
                   placeholder="you@example.com"
-                  className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-wood-500"
+                  className="w-full px-4 py-3 transition border border-gray-200 outline-none rounded-xl focus:border-wood-500"
                 />
               </div>
 
               <div>
-                <label className="mb-2 block text-sm font-medium text-wood-800">
+                <label className="block mb-2 text-sm font-medium text-wood-800">
                   Phone
                 </label>
 
@@ -202,12 +202,12 @@ ${formData.message}
                   onChange={handleChange}
                   required
                   placeholder="+91 98765 43210"
-                  className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-wood-500"
+                  className="w-full px-4 py-3 transition border border-gray-200 outline-none rounded-xl focus:border-wood-500"
                 />
               </div>
 
               <div>
-                <label className="mb-2 block text-sm font-medium text-wood-800">
+                <label className="block mb-2 text-sm font-medium text-wood-800">
                   Project Type
                 </label>
 
@@ -216,7 +216,7 @@ ${formData.message}
                   value={formData.project}
                   onChange={handleChange}
                   required
-                  className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 outline-none focus:border-wood-500"
+                  className="w-full px-4 py-3 bg-white border border-gray-200 outline-none rounded-xl focus:border-wood-500"
                 >
                   <option value="">Select project</option>
                   <option value="Custom Furniture">
@@ -241,7 +241,7 @@ ${formData.message}
               </div>
 
               <div className="sm:col-span-2">
-                <label className="mb-2 block text-sm font-medium text-wood-800">
+                <label className="block mb-2 text-sm font-medium text-wood-800">
                   Estimated Budget
                 </label>
 
@@ -250,7 +250,7 @@ ${formData.message}
                   value={formData.budget}
                   onChange={handleChange}
                   required
-                  className="w-full rounded-xl border border-gray-200 bg-white px-4 py-3 outline-none focus:border-wood-500"
+                  className="w-full px-4 py-3 bg-white border border-gray-200 outline-none rounded-xl focus:border-wood-500"
                 >
                   <option value="">Select budget</option>
                   <option value="Under ₹1 Lakh">
@@ -272,7 +272,7 @@ ${formData.message}
               </div>
 
               <div className="sm:col-span-2">
-                <label className="mb-2 block text-sm font-medium text-wood-800">
+                <label className="block mb-2 text-sm font-medium text-wood-800">
                   Project Details
                 </label>
 
@@ -283,21 +283,21 @@ ${formData.message}
                   required
                   rows="5"
                   placeholder="Tell us about your project..."
-                  className="w-full resize-none rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-wood-500"
+                  className="w-full px-4 py-3 transition border border-gray-200 outline-none resize-none rounded-xl focus:border-wood-500"
                 />
               </div>
             </div>
 
             <button
               type="submit"
-              className="mt-6 flex w-full items-center justify-center gap-2 rounded-full bg-wood-800 px-6 py-4 font-semibold text-white transition hover:bg-wood-600"
+              className="flex items-center justify-center w-full gap-2 px-6 py-4 mt-6 font-semibold text-white transition rounded-full bg-wood-800 hover:bg-wood-600"
             >
               <MessageCircle size={19} />
               Send via WhatsApp
               <ArrowUpRight size={17} />
             </button>
 
-            <p className="mt-4 text-center text-xs text-gray-500">
+            <p className="mt-4 text-xs text-center text-gray-500">
               Your message will open in WhatsApp with the details
               you entered.
             </p>
