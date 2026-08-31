@@ -4,36 +4,48 @@ function Projects() {
   const projects = [
     {
       image: "/images/project-1.jpg",
-      title: "Modern Wooden Residence",
+      title: "Modern Wall-Mounted TV Unit & Entertainment Cabinet Design",
       category: "Interior Design",
       size: "large",
     },
     {
       image: "/images/project-2.jpg",
-      title: "Luxury Dining Space",
+      title: "Modern Stainless Steel Main Door Design",
       category: "Custom Furniture",
       size: "normal",
     },
     {
       image: "/images/project-3.jpg",
-      title: "Contemporary Kitchen",
+      title: "Modern Black Fitted Wardrobe Design",
       category: "Kitchen Design",
       size: "normal",
     },
     {
       image: "/images/project-4.jpg",
-      title: "Warm Bedroom Suite",
+      title: "Built-in Wall Cupboard with Loft Cabinets",
       category: "Bedroom Interior",
       size: "normal",
     },
     {
       image: "/images/project-5.jpg",
-      title: "Executive Workspace",
+      title: "Smith & John's Auto Clean Kitchen Chimney",
       category: "Office Interior",
       size: "normal",
     },
     {
       image: "/images/project-6.jpg",
+      title: "Blue Kitchen Cabinets Under Construction",
+      category: "Furniture",
+      size: "large",
+    },
+    {
+      image: "/images/project-7.jpg",
+      title: "Modern Kitchen Setup with Blue Cabinets and Electric Chimney",
+      category: "Furniture",
+      size: "large",
+    },
+    {
+      image: "/images/project-8.jpg",
       title: "Bespoke Living Room",
       category: "Furniture",
       size: "large",
@@ -41,7 +53,7 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="section-padding bg-white">
+    <section id="projects" className="bg-white section-padding">
       <div className="container-custom">
         <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
           <div>
@@ -64,11 +76,11 @@ function Projects() {
           </a>
         </div>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 mt-12 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <article
               key={project.title}
-              className="group relative overflow-hidden rounded-3xl"
+              className="relative overflow-hidden group rounded-3xl"
             >
               <img
                 src={project.image}
@@ -89,7 +101,7 @@ function Projects() {
 
                 <a
                   href="#contact"
-                  className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-white"
+                  className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-white"
                 >
                   Discuss Similar Project
                   <ArrowUpRight size={16} />

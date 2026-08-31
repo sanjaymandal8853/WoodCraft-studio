@@ -36,7 +36,7 @@ woodcraft-studio/
 │
 ├── public/
 │   ├── images/
-│   │   ├── hero.jpg
+│   │   ├── .jpghero
 │   │   ├── about.jpg
 │   │   ├── profile.jpg
 │   │   ├── furniture-1.jpg

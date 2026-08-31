@@ -4,17 +4,17 @@ function Furniture() {
   const furniture = [
     {
       image: "/images/furniture-1.jpg",
-      title: "Signature Dining Table",
+      title: "Beautifull study table with storage",
       category: "Dining Collection",
     },
     {
       image: "/images/furniture-2.jpg",
-      title: "Handcrafted Lounge Chair",
+      title: "Beautiful LCD Penel",
       category: "Seating Collection",
     },
     {
       image: "/images/furniture-3.jpg",
-      title: "Minimal Wooden Cabinet",
+      title: "Beautiful Wardrobe with dressing",
       category: "Storage Collection",
     },
   ];
@@ -44,7 +44,7 @@ function Furniture() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 mt-12 md:grid-cols-3">
           {furniture.map((item) => (
             <div key={item.title} className="group">
               <div className="overflow-hidden rounded-3xl">
@@ -65,7 +65,7 @@ function Furniture() {
 
               <a
                 href="#contact"
-                className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-white"
+                className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-white"
               >
                 Request Custom Piece
                 <ArrowRight size={16} />
